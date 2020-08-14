@@ -88,7 +88,7 @@ F 3 "~" H 6350 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5750 1200 5750 1750
+	10000 1200 10000 1750
 Connection ~ 5750 2700
 Connection ~ 6350 3000
 Wire Wire Line
@@ -143,8 +143,6 @@ F 3 "~" H 8900 2850 50  0001 C CNN
 	1    8900 2850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8300 2400 8300 2700
 Connection ~ 8300 2700
 Connection ~ 8900 3000
 $Comp
@@ -197,8 +195,6 @@ F 3 "~" H 9750 2850 50  0001 C CNN
 	1    9750 2850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9150 2400 9150 2700
 Connection ~ 9150 2700
 Connection ~ 9750 3000
 Wire Wire Line
@@ -225,8 +221,6 @@ F 3 "~" H 10600 2850 50  0001 C CNN
 	1    10600 2850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10000 2400 10000 2700
 Connection ~ 10000 2700
 Wire Wire Line
 	9750 3000 10600 3000
@@ -1237,21 +1231,21 @@ Text GLabel 4000 5600 0    50   Input ~ 0
 row4
 Text GLabel 4000 6250 0    50   Input ~ 0
 row5
-Text GLabel 4050 1250 1    50   Input ~ 0
+Text GLabel 4050 2400 1    50   Input ~ 0
 col0
-Text GLabel 4900 1200 1    50   Input ~ 0
+Text GLabel 4900 2400 1    50   Input ~ 0
 col1
-Text GLabel 5750 1200 1    50   Input ~ 0
+Text GLabel 5750 2400 1    50   Input ~ 0
 col2
 Text GLabel 6600 2400 1    50   Input ~ 0
 col3
 Text GLabel 7450 2400 1    50   Input ~ 0
 col4
-Text GLabel 8300 2400 1    50   Input ~ 0
+Text GLabel 8300 1250 1    50   Input ~ 0
 col5
-Text GLabel 9150 2400 1    50   Input ~ 0
+Text GLabel 9150 1200 1    50   Input ~ 0
 col6
-Text GLabel 10000 2400 1    50   Input ~ 0
+Text GLabel 10000 1200 1    50   Input ~ 0
 col7
 $Comp
 L My_Library:BleProMicro BPM1
@@ -1412,7 +1406,7 @@ Text GLabel 1950 5150 2    50   Input ~ 0
 gnd
 Text GLabel 1350 5150 0    50   Input ~ 0
 led
-Text GLabel 1150 2550 0    50   Input ~ 0
+Text GLabel 1150 2450 0    50   Input ~ 0
 led
 Wire Wire Line
 	7200 6250 8900 6250
@@ -1478,113 +1472,119 @@ Connection ~ 1100 3900
 Wire Wire Line
 	1100 3900 1100 3650
 NoConn ~ 2700 3750
-NoConn ~ 4200 1950
-NoConn ~ 4600 1950
+NoConn ~ 8450 1950
+NoConn ~ 8850 1950
 $Comp
 L Device:D D100
 U 1 1 5F386B99
-P 4700 1900
-F 0 "D100" V 4746 1820 50  0000 R CNN
-F 1 "D" V 4655 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4700 1900 50  0001 C CNN
-F 3 "~" H 4700 1900 50  0001 C CNN
-	1    4700 1900
+P 8950 1900
+F 0 "D100" V 8996 1820 50  0000 R CNN
+F 1 "D" V 8905 1820 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8950 1900 50  0001 C CNN
+F 3 "~" H 8950 1900 50  0001 C CNN
+	1    8950 1900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4600 1750 4700 1750
+	8850 1750 8950 1750
 Wire Wire Line
-	4700 2050 4000 2050
-Text GLabel 4000 2050 0    50   Input ~ 0
+	8950 2050 8250 2050
+Text GLabel 8250 2050 0    50   Input ~ 0
 rowsys
 Wire Wire Line
-	4700 2050 5550 2050
-Connection ~ 4700 2050
+	8950 2050 9800 2050
+Connection ~ 8950 2050
 Wire Wire Line
-	4050 1250 4050 1750
+	8300 1250 8300 1750
 Wire Wire Line
-	4200 1750 4050 1750
-Connection ~ 4050 1750
+	8450 1750 8300 1750
+Connection ~ 8300 1750
 Wire Wire Line
-	4050 1750 4050 2700
-Wire Wire Line
-	4900 1200 4900 1750
-NoConn ~ 5050 1950
-NoConn ~ 5450 1950
+	9150 1200 9150 1750
+NoConn ~ 9300 1950
+NoConn ~ 9700 1950
 $Comp
 L Device:D D101
 U 1 1 5F3CEA11
-P 5550 1900
-F 0 "D101" V 5596 1820 50  0000 R CNN
-F 1 "D" V 5505 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 1900 50  0001 C CNN
-F 3 "~" H 5550 1900 50  0001 C CNN
-	1    5550 1900
+P 9800 1900
+F 0 "D101" V 9846 1820 50  0000 R CNN
+F 1 "D" V 9755 1820 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9800 1900 50  0001 C CNN
+F 3 "~" H 9800 1900 50  0001 C CNN
+	1    9800 1900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5450 1750 5550 1750
+	9700 1750 9800 1750
 Wire Wire Line
-	5050 1750 4900 1750
-Connection ~ 5550 2050
-Connection ~ 4900 1750
-Wire Wire Line
-	4900 1750 4900 2700
-NoConn ~ 5900 1950
-NoConn ~ 6300 1950
+	9300 1750 9150 1750
+Connection ~ 9800 2050
+Connection ~ 9150 1750
+NoConn ~ 10150 1950
+NoConn ~ 10550 1950
 $Comp
 L Device:D D102
 U 1 1 5F3D4407
-P 6400 1900
-F 0 "D102" V 6446 1820 50  0000 R CNN
-F 1 "D" V 6355 1820 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 1900 50  0001 C CNN
-F 3 "~" H 6400 1900 50  0001 C CNN
-	1    6400 1900
+P 10650 1900
+F 0 "D102" V 10696 1820 50  0000 R CNN
+F 1 "D" V 10605 1820 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10650 1900 50  0001 C CNN
+F 3 "~" H 10650 1900 50  0001 C CNN
+	1    10650 1900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6300 1750 6400 1750
+	10550 1750 10650 1750
 Wire Wire Line
-	5900 1750 5750 1750
-Connection ~ 5750 1750
+	10150 1750 10000 1750
+Connection ~ 10000 1750
 Wire Wire Line
-	5750 1750 5750 2700
-Wire Wire Line
-	5550 2050 6400 2050
-Text GLabel 1150 2450 0    50   Input ~ 0
+	9800 2050 10650 2050
+Text GLabel 1150 2550 0    50   Input ~ 0
 rowsys
 $Comp
 L My_Library:SW_Push_Dual_R SW102
 U 1 1 5F449060
-P 6100 1750
-F 0 "SW102" H 6100 2035 50  0000 C CNN
-F 1 "SW_Push_Dual_R" H 6100 1944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 6100 1950 50  0001 C CNN
-F 3 "" H 6100 1950 50  0001 C CNN
-	1    6100 1750
+P 10350 1750
+F 0 "SW102" H 10350 2035 50  0000 C CNN
+F 1 "SW_Push_Dual_R" H 10350 1944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 10350 1950 50  0001 C CNN
+F 3 "" H 10350 1950 50  0001 C CNN
+	1    10350 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L My_Library:SW_Push_Dual_R SW101
 U 1 1 5F44E520
-P 5250 1750
-F 0 "SW101" H 5250 2035 50  0000 C CNN
-F 1 "SW_Push_Dual_R" H 5250 1944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5250 1950 50  0001 C CNN
-F 3 "" H 5250 1950 50  0001 C CNN
-	1    5250 1750
+P 9500 1750
+F 0 "SW101" H 9500 2035 50  0000 C CNN
+F 1 "SW_Push_Dual_R" H 9500 1944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 9500 1950 50  0001 C CNN
+F 3 "" H 9500 1950 50  0001 C CNN
+	1    9500 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L My_Library:SW_Push_Dual_R SW100
 U 1 1 5F44F80F
-P 4400 1750
-F 0 "SW100" H 4400 2035 50  0000 C CNN
-F 1 "SW_Push_Dual_R" H 4400 1944 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4400 1950 50  0001 C CNN
-F 3 "" H 4400 1950 50  0001 C CNN
-	1    4400 1750
+P 8650 1750
+F 0 "SW100" H 8650 2035 50  0000 C CNN
+F 1 "SW_Push_Dual_R" H 8650 1944 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 8650 1950 50  0001 C CNN
+F 3 "" H 8650 1950 50  0001 C CNN
+	1    8650 1750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5750 2400 5750 2700
+Wire Wire Line
+	4900 2400 4900 2700
+Wire Wire Line
+	4050 2400 4050 2700
+Wire Wire Line
+	8300 1750 8300 2700
+Wire Wire Line
+	9150 1750 9150 2700
+Wire Wire Line
+	10000 1750 10000 2700
 $EndSCHEMATC
