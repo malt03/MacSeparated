@@ -1253,22 +1253,22 @@ U 1 1 5F3D70D4
 P 1850 2200
 F 0 "BPM1" H 1850 3337 60  0000 C CNN
 F 1 "BleProMicro" H 1850 3231 60  0000 C CNN
-F 2 "mylibrary:BLEMicroPro_reversed" H 1950 1150 60  0001 C CNN
+F 2 "mylibrary:BLEMicroPro" H 1950 1150 60  0001 C CNN
 F 3 "" H 1950 1150 60  0000 C CNN
 	1    1850 2200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 2350 0    50   Input ~ 0
+Text GLabel 2550 2350 2    50   Input ~ 0
 row0
-Text GLabel 1150 2250 0    50   Input ~ 0
+Text GLabel 2550 2250 2    50   Input ~ 0
 row1
-Text GLabel 1150 2150 0    50   Input ~ 0
+Text GLabel 2550 2150 2    50   Input ~ 0
 row2
-Text GLabel 1150 2050 0    50   Input ~ 0
+Text GLabel 2550 2050 2    50   Input ~ 0
 row3
-Text GLabel 1150 1950 0    50   Input ~ 0
+Text GLabel 2550 1950 2    50   Input ~ 0
 row4
-Text GLabel 1150 1850 0    50   Input ~ 0
+Text GLabel 2550 1850 2    50   Input ~ 0
 row5
 $Comp
 L CH25-2032LF:CH25-2032LF U1
@@ -1390,7 +1390,7 @@ Text GLabel 1950 5150 2    50   Input ~ 0
 gnd
 Text GLabel 1350 5150 0    50   Input ~ 0
 led
-Text GLabel 1150 2450 0    50   Input ~ 0
+Text GLabel 2550 2450 2    50   Input ~ 0
 led
 Wire Wire Line
 	7200 6250 8900 6250
@@ -1524,7 +1524,7 @@ Wire Wire Line
 Connection ~ 10000 1750
 Wire Wire Line
 	9800 2050 10650 2050
-Text GLabel 1150 2550 0    50   Input ~ 0
+Text GLabel 2550 2550 2    50   Input ~ 0
 rowsys
 $Comp
 L My_Library:SW_Push_Dual_R SW102
@@ -1571,20 +1571,20 @@ Wire Wire Line
 	9150 1750 9150 2700
 Wire Wire Line
 	10000 1750 10000 2700
-Text GLabel 2550 2550 2    50   Input ~ 0
-col7
-Text GLabel 2550 2450 2    50   Input ~ 0
-col6
-Text GLabel 2550 2350 2    50   Input ~ 0
-col5
-Text GLabel 2550 2250 2    50   Input ~ 0
-col4
-Text GLabel 2550 2150 2    50   Input ~ 0
-col3
-Text GLabel 2550 2050 2    50   Input ~ 0
-col2
-Text GLabel 2550 1950 2    50   Input ~ 0
-col1
-Text GLabel 2550 1850 2    50   Input ~ 0
+Text GLabel 1150 1850 0    50   Input ~ 0
 col0
+Text GLabel 1150 1950 0    50   Input ~ 0
+col1
+Text GLabel 1150 2050 0    50   Input ~ 0
+col2
+Text GLabel 1150 2150 0    50   Input ~ 0
+col3
+Text GLabel 1150 2250 0    50   Input ~ 0
+col4
+Text GLabel 1150 2350 0    50   Input ~ 0
+col5
+Text GLabel 1150 2450 0    50   Input ~ 0
+col6
+Text GLabel 1150 2550 0    50   Input ~ 0
+col7
 $EndSCHEMATC
