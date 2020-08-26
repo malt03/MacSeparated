@@ -3703,7 +3703,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F4C41EE)
-    (at 91.710027 89.436258 345)
+    (at 91.883125 88.121457 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F365B3B)
@@ -3771,7 +3771,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F4C4222)
-    (at 110.110914 94.366761 345)
+    (at 110.284012 93.05196 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F365B2B)
@@ -3892,7 +3892,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F49312B)
-    (at 101.571033 52.634484 345)
+    (at 101.744131 51.319683 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F34DB68)
@@ -4059,7 +4059,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F4929A5)
-    (at 119.641639 77.198499 345)
+    (at 119.814737 75.883699 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F355A0D)
@@ -4195,7 +4195,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F49290C)
-    (at 119.97192 57.564987 345)
+    (at 120.145018 56.250186 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F34DB58)
@@ -4263,7 +4263,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F493092)
-    (at 111.101757 35.466223 345)
+    (at 111.274856 34.151422 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F345CD9)
@@ -4440,7 +4440,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F492FF9)
-    (at 101.240752 72.267997 345)
+    (at 101.41385 70.953196 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F355A1D)
@@ -4508,7 +4508,7 @@
   )
 
   (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 5F492873)
-    (at 129.502644 40.396726 345)
+    (at 129.675743 39.081925 345)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /5F345CC9)
