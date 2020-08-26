@@ -2837,16 +2837,16 @@ Text GLabel 9950 2400 2    50   Input ~ 0
 col6
 Text GLabel 9950 2500 2    50   Input ~ 0
 col7
-Text GLabel 9950 2600 2    50   Input ~ 0
-col8
-Text GLabel 9950 2700 2    50   Input ~ 0
-col9
-Text GLabel 9950 2800 2    50   Input ~ 0
-col10
-Text GLabel 9950 2900 2    50   Input ~ 0
-col11
-Text GLabel 9950 3000 2    50   Input ~ 0
-col12
 Text GLabel 9950 3100 2    50   Input ~ 0
+col8
+Text GLabel 9950 3000 2    50   Input ~ 0
+col9
+Text GLabel 9950 2900 2    50   Input ~ 0
+col10
+Text GLabel 9950 2800 2    50   Input ~ 0
+col11
+Text GLabel 9950 2700 2    50   Input ~ 0
+col12
+Text GLabel 9950 2600 2    50   Input ~ 0
 col13
 $EndSCHEMATC

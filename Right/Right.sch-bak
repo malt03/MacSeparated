@@ -2817,36 +2817,36 @@ Text GLabel 3500 2750 2    50   Input ~ 0
 row4
 Text GLabel 3500 2850 2    50   Input ~ 0
 row5
-Text GLabel 9950 2900 2    50   Input ~ 0
-row6
-Text GLabel 9950 2800 2    50   Input ~ 0
-row7
-Text GLabel 9950 2700 2    50   Input ~ 0
-row8
-Text GLabel 9950 2600 2    50   Input ~ 0
-row9
-Text GLabel 9950 2500 2    50   Input ~ 0
-row10
-Text GLabel 9950 2400 2    50   Input ~ 0
-row11
-Text GLabel 9950 3100 2    50   Input ~ 0
-rowsys1
-Text GLabel 9950 3000 2    50   Input ~ 0
+Text GLabel 8550 3000 0    50   Input ~ 0
 led1
 Text GLabel 8550 3100 0    50   Input ~ 0
-col13
-Text GLabel 8550 3000 0    50   Input ~ 0
-col12
+rowsys1
 Text GLabel 8550 2900 0    50   Input ~ 0
-col11
+row11
 Text GLabel 8550 2800 0    50   Input ~ 0
-col10
+row10
 Text GLabel 8550 2700 0    50   Input ~ 0
-col9
+row9
 Text GLabel 8550 2600 0    50   Input ~ 0
-col8
+row8
 Text GLabel 8550 2500 0    50   Input ~ 0
-col7
+row7
 Text GLabel 8550 2400 0    50   Input ~ 0
+row6
+Text GLabel 9950 2400 2    50   Input ~ 0
 col6
+Text GLabel 9950 2500 2    50   Input ~ 0
+col7
+Text GLabel 9950 3100 2    50   Input ~ 0
+col8
+Text GLabel 9950 3000 2    50   Input ~ 0
+col9
+Text GLabel 9950 2900 2    50   Input ~ 0
+col10
+Text GLabel 9950 2800 2    50   Input ~ 0
+col11
+Text GLabel 9950 2700 2    50   Input ~ 0
+col12
+Text GLabel 9950 2600 2    50   Input ~ 0
+col13
 $EndSCHEMATC
