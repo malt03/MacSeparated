@@ -2793,29 +2793,29 @@ Wire Wire Line
 	4250 9250 5950 9250
 NoConn ~ 2100 3050
 NoConn ~ 2100 2950
-Text GLabel 2100 2850 0    50   Input ~ 0
-col5
-Text GLabel 2100 2750 0    50   Input ~ 0
-col4
-Text GLabel 2100 2650 0    50   Input ~ 0
-col3
-Text GLabel 2100 2550 0    50   Input ~ 0
-col2
-Text GLabel 2100 2450 0    50   Input ~ 0
-col1
 Text GLabel 2100 2350 0    50   Input ~ 0
+col5
+Text GLabel 2100 2450 0    50   Input ~ 0
+col4
+Text GLabel 2100 2850 0    50   Input ~ 0
+col3
+Text GLabel 2100 2750 0    50   Input ~ 0
+col2
+Text GLabel 2100 2650 0    50   Input ~ 0
+col1
+Text GLabel 2100 2550 0    50   Input ~ 0
 col0
-Text GLabel 3500 2350 2    50   Input ~ 0
-row0
-Text GLabel 3500 2450 2    50   Input ~ 0
-row1
-Text GLabel 3500 2550 2    50   Input ~ 0
-row2
-Text GLabel 3500 2650 2    50   Input ~ 0
-row3
-Text GLabel 3500 2750 2    50   Input ~ 0
-row4
 Text GLabel 3500 2850 2    50   Input ~ 0
+row0
+Text GLabel 3500 2750 2    50   Input ~ 0
+row1
+Text GLabel 3500 2650 2    50   Input ~ 0
+row2
+Text GLabel 3500 2550 2    50   Input ~ 0
+row3
+Text GLabel 3500 2450 2    50   Input ~ 0
+row4
+Text GLabel 3500 2350 2    50   Input ~ 0
 row5
 Text GLabel 8550 3000 0    50   Input ~ 0
 led1
