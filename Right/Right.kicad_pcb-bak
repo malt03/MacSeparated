@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 516)
+    (drawings 524)
     (tracks 1117)
     (zones 0)
     (modules 276)
@@ -12806,6 +12806,14 @@
     )
   )
 
+  (gr_line (start 177.378903 259.944978) (end 181.00237 273.46794) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE52))
+  (gr_line (start 163.855941 263.568445) (end 177.378903 259.944978) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE51))
+  (gr_line (start 181.00237 273.46794) (end 167.479408 277.091406) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE50))
+  (gr_line (start 167.479408 277.091406) (end 163.855941 263.568445) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE4F))
+  (gr_line (start 200.379529 253.781979) (end 204.002996 267.304941) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE4E))
+  (gr_line (start 186.856567 257.405446) (end 200.379529 253.781979) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE4D))
+  (gr_line (start 204.002996 267.304941) (end 190.480034 270.928407) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE4C))
+  (gr_line (start 190.480034 270.928407) (end 186.856567 257.405446) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBE4B))
   (gr_line (start 54.9125 252.5375) (end 68.9125 252.5375) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBD7F))
   (gr_line (start 68.9125 266.5375) (end 54.9125 266.5375) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBD7E))
   (gr_line (start 49.8625 252.5375) (end 49.8625 266.5375) (layer Edge.Cuts) (width 0.05) (tstamp 5F4EBD7D))
