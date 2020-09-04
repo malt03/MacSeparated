@@ -981,7 +981,7 @@ U 1 1 5F3D70D4
 P 2800 2700
 F 0 "BPM1" H 2800 3837 60  0000 C CNN
 F 1 "BleProMicro" H 2800 3731 60  0000 C CNN
-F 2 "mylibrary:BLEMicroPro" H 2900 1650 60  0001 C CNN
+F 2 "mylibrary:BLEMicroPro_reversed" H 2900 1650 60  0001 C CNN
 F 3 "" H 2900 1650 60  0000 C CNN
 	1    2800 2700
 	1    0    0    -1  
@@ -1106,7 +1106,7 @@ Text GLabel 7100 2200 1    50   Input ~ 0
 gnd0
 Text GLabel 7100 2800 3    50   Input ~ 0
 led0
-Text GLabel 3500 2950 2    50   Input ~ 0
+Text GLabel 2100 2950 0    50   Input ~ 0
 led0
 NoConn ~ 2100 2050
 NoConn ~ 2100 1950
@@ -1142,7 +1142,7 @@ Connection ~ 4450 2500
 Wire Wire Line
 	4450 2500 4450 2250
 NoConn ~ 6050 2350
-Text GLabel 3500 3050 2    50   Input ~ 0
+Text GLabel 2100 3050 0    50   Input ~ 0
 rowsys0
 $Comp
 L kbd:SW_PUSH SW61
@@ -2354,7 +2354,7 @@ U 1 1 5F4884AA
 P 9250 2750
 F 0 "BPM2" H 9250 3887 60  0000 C CNN
 F 1 "BleProMicro" H 9250 3781 60  0000 C CNN
-F 2 "mylibrary:BLEMicroPro" H 9350 1700 60  0001 C CNN
+F 2 "mylibrary:BLEMicroPro_reversed" H 9350 1700 60  0001 C CNN
 F 3 "" H 9350 1700 60  0000 C CNN
 	1    9250 2750
 	1    0    0    -1  
@@ -2791,62 +2791,62 @@ Wire Wire Line
 	5950 9250 6800 9250
 Wire Wire Line
 	4250 9250 5950 9250
-NoConn ~ 2100 3050
-NoConn ~ 2100 2950
-Text GLabel 2100 2350 0    50   Input ~ 0
-col5
-Text GLabel 2100 2450 0    50   Input ~ 0
-col4
-Text GLabel 2100 2850 0    50   Input ~ 0
-col3
-Text GLabel 2100 2750 0    50   Input ~ 0
-col2
-Text GLabel 2100 2650 0    50   Input ~ 0
-col1
-Text GLabel 2100 2550 0    50   Input ~ 0
-col0
-Text GLabel 3500 2850 2    50   Input ~ 0
-row0
-Text GLabel 3500 2750 2    50   Input ~ 0
-row1
-Text GLabel 3500 2650 2    50   Input ~ 0
-row2
-Text GLabel 3500 2550 2    50   Input ~ 0
-row3
-Text GLabel 3500 2450 2    50   Input ~ 0
-row4
 Text GLabel 3500 2350 2    50   Input ~ 0
+col5
+Text GLabel 3500 2450 2    50   Input ~ 0
+col4
+Text GLabel 3500 2850 2    50   Input ~ 0
+col3
+Text GLabel 3500 2750 2    50   Input ~ 0
+col2
+Text GLabel 3500 2650 2    50   Input ~ 0
+col1
+Text GLabel 3500 2550 2    50   Input ~ 0
+col0
+Text GLabel 2100 2850 0    50   Input ~ 0
+row0
+Text GLabel 2100 2750 0    50   Input ~ 0
+row1
+Text GLabel 2100 2650 0    50   Input ~ 0
+row2
+Text GLabel 2100 2550 0    50   Input ~ 0
+row3
+Text GLabel 2100 2450 0    50   Input ~ 0
+row4
+Text GLabel 2100 2350 0    50   Input ~ 0
 row5
-Text GLabel 8550 3000 0    50   Input ~ 0
-led1
-Text GLabel 8550 3100 0    50   Input ~ 0
-rowsys1
-Text GLabel 8550 2400 0    50   Input ~ 0
-row11
-Text GLabel 8550 2500 0    50   Input ~ 0
-row10
-Text GLabel 8550 2600 0    50   Input ~ 0
-row9
-Text GLabel 8550 2700 0    50   Input ~ 0
-row8
-Text GLabel 8550 2800 0    50   Input ~ 0
-row7
-Text GLabel 8550 2900 0    50   Input ~ 0
-row6
-Text GLabel 9950 2400 2    50   Input ~ 0
-col6
-Text GLabel 9950 2500 2    50   Input ~ 0
-col7
-Text GLabel 9950 3100 2    50   Input ~ 0
-col8
 Text GLabel 9950 3000 2    50   Input ~ 0
-col9
-Text GLabel 9950 2900 2    50   Input ~ 0
-col10
-Text GLabel 9950 2800 2    50   Input ~ 0
-col11
-Text GLabel 9950 2700 2    50   Input ~ 0
-col12
+led1
+Text GLabel 9950 3100 2    50   Input ~ 0
+rowsys1
+Text GLabel 9950 2400 2    50   Input ~ 0
+row11
+Text GLabel 9950 2500 2    50   Input ~ 0
+row10
 Text GLabel 9950 2600 2    50   Input ~ 0
+row9
+Text GLabel 9950 2700 2    50   Input ~ 0
+row8
+Text GLabel 9950 2800 2    50   Input ~ 0
+row7
+Text GLabel 9950 2900 2    50   Input ~ 0
+row6
+Text GLabel 8550 2400 0    50   Input ~ 0
+col6
+Text GLabel 8550 2500 0    50   Input ~ 0
+col7
+Text GLabel 8550 3100 0    50   Input ~ 0
+col8
+Text GLabel 8550 3000 0    50   Input ~ 0
+col9
+Text GLabel 8550 2900 0    50   Input ~ 0
+col10
+Text GLabel 8550 2800 0    50   Input ~ 0
+col11
+Text GLabel 8550 2700 0    50   Input ~ 0
+col12
+Text GLabel 8550 2600 0    50   Input ~ 0
 col13
+NoConn ~ 3500 2950
+NoConn ~ 3500 3050
 $EndSCHEMATC

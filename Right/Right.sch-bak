@@ -2805,17 +2805,17 @@ Text GLabel 2100 2650 0    50   Input ~ 0
 col1
 Text GLabel 2100 2550 0    50   Input ~ 0
 col0
-Text GLabel 3500 2350 2    50   Input ~ 0
-row0
-Text GLabel 3500 2450 2    50   Input ~ 0
-row1
-Text GLabel 3500 2550 2    50   Input ~ 0
-row2
-Text GLabel 3500 2650 2    50   Input ~ 0
-row3
-Text GLabel 3500 2750 2    50   Input ~ 0
-row4
 Text GLabel 3500 2850 2    50   Input ~ 0
+row0
+Text GLabel 3500 2750 2    50   Input ~ 0
+row1
+Text GLabel 3500 2650 2    50   Input ~ 0
+row2
+Text GLabel 3500 2550 2    50   Input ~ 0
+row3
+Text GLabel 3500 2450 2    50   Input ~ 0
+row4
+Text GLabel 3500 2350 2    50   Input ~ 0
 row5
 Text GLabel 8550 3000 0    50   Input ~ 0
 led1
